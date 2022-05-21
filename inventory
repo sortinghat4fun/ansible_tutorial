@@ -1,2 +1,8 @@
-firsthost
+[web_servers]
 secondhost
+
+[db_servers]
+firsthost
+
+[file_servers]
+firsthost
