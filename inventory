@@ -6,3 +6,6 @@ firsthost
 
 [file_servers]
 firsthost
+
+[workstations]
+firsthost
