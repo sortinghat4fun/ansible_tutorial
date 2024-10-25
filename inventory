@@ -1,3 +1,8 @@
+[web_servers]
 10.0.2.6
+
+[db_servers]
 10.0.2.4
+
+[file_servers]
 10.0.2.5
