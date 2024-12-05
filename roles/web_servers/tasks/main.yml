@@ -1,9 +1,9 @@
 - name: install apache and php packages
   tags: apache,apache2,ubuntu
-  apt:
+  package:
     name:
-      - apache2
-      - libapache2-mod-php
+      - "{{ apache_package_name }}"
+      - "{{ php_package_name }}"
     state: latest
 
 - name: copy default html for site
